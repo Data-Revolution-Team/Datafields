@@ -1,6 +1,7 @@
 import { Github } from "lucide-react"
 import { CONTENT } from "@/lib/content"
 import Image from "next/image"
+import { basePath } from '../next.config'
 
 export function Footer() {
     return (
@@ -10,7 +11,7 @@ export function Footer() {
                     <div className="space-y-4">
                         <div className="flex justify-center mb-4">
                             <Image
-                                src="/datafields-footer-logo.svg"
+                                src={`${basePath}/datafields-footer-logo.svg`}
                                 alt="Datafields Logo"
                                 width={200}
                                 height={50}

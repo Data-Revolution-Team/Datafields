@@ -6,6 +6,7 @@ import type { Datacenter, PopulationCenter, PowerGenerator } from "@/app/page"
 import Image from "next/image"
 import { Server, Building2, School, Home } from "lucide-react"
 import { FloatingDatacenterSelector } from "./floating-datacenter-selector"
+import { basePath } from '../next.config'
 
 interface MapComponentProps {
     datacenters: Datacenter[]
@@ -517,7 +518,7 @@ export const MapComponent = forwardRef<HTMLDivElement, MapComponentProps>(
                     <foreignObject x="0" y="0" width="100%" height="100%">
                         <div className="w-full h-full relative overflow-hidden">
                             <Image
-                                src="/images/vic.png"
+                                src={`${basePath}/images/vic.png`}
                                 alt="Victoria state outline"
                                 fill
                                 className="object-cover opacity-80"
