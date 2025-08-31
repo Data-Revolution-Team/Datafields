@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { CONTENT } from "@/lib/content"
 
 export function Navbar() {
@@ -24,10 +25,16 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <Link href="/" className="select-none">
-              <h1 className="text-xl font-bold text-primary hover:text-primary/80 transition-colors cursor-pointer">
-                {CONTENT.brand.name}
-              </h1>
+            <Link href="/" className="select-none flex items-center space-x-1 hover:opacity-80 transition-opacity">
+              <Image
+                src="/datafields-symbol.svg"
+                alt={CONTENT.brand.name}
+                width={40}
+                height={40}
+                className="h-16 w-16 cursor-pointer"
+                priority
+              />
+              <span className="text-xl font-semibold text-[#FFCD00] cursor-pointer">Datafields</span>
             </Link>
           </div>
 

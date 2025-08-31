@@ -1,7 +1,7 @@
 export const CONTENT = {
   // Brand and general
   brand: {
-    name: "Data Revolution",
+    name: "Datafields",
     tagline: "Positioning Australia as the Asia-Pacific's leading AI and cloud computing hub.",
   },
 
@@ -94,9 +94,9 @@ export const CONTENT = {
 
   // Footer
   footer: {
-    brandName: "Data Revolution",
+    brandName: "Datafields",
     description: "Positioning Australia as the Asia-Pacific's leading AI and cloud computing hub.",
     githubLink: "View on GitHub",
-    copyright: "© 2025 Data Revolution GovHack. All rights reserved.",
+    copyright: "© 2025 Datafields GovHack. All rights reserved.",
   },
 } as const
