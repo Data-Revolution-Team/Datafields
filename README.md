@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="/public/data-fields-logo.png" alt="Logo" width="80" height="80">
+    <img src="/public/data-fields-logo.png" alt="Logo" width="160" height="160">
   </a>
 
 <h3 align="center">Datafields</h3>
@@ -17,7 +17,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!--[![Product Name Screen Shot][product-screenshot]](link to website)-->
+[![Product Name Screen Shot][product-screenshot]](link to website)
 
 Project submission for Govhack 2025. See further information here: https://hackerspace.govhack.org/projects/project_2536
 
