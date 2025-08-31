@@ -11,13 +11,13 @@ export function CTASection() {
                 <p className="text-xl text-balance mb-8 opacity-90 max-w-2xl mx-auto">{CONTENT.cta.description}</p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <Link href={`${CONTENT.links.video}`}>
+                    <Link href={`${CONTENT.links.video}`} target="_blank">
                         <Button size="lg" variant="secondary" className="text-lg px-8 py-6">
                             <Play className="mr-2 h-5 w-5" />
                             {CONTENT.cta.primaryButton}
                         </Button>
                     </Link>
-                    <Link href={`${CONTENT.links.simulation}`}>
+                    <Link href={`${CONTENT.links.simulation}`} target="_blank">
                         <Button
                             size="lg"
                             variant="outline"

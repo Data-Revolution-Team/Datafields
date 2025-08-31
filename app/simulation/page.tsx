@@ -266,9 +266,9 @@ export default function DatacenterSimulation() {
         <div className="min-h-screen bg-background">
             <div className="container mx-auto p-4 h-full">
                 <div className="mb-6">
-                    <h1 className="text-4xl font-bold text-foreground mb-2">NSW Datacenter Simulation</h1>
+                    <h1 className="text-4xl font-bold text-foreground mb-2">VIC Datacenter Simulation</h1>
                     <p className="text-muted-foreground text-lg">
-                        Build and manage datacenters across New South Wales. Consider latency, power, and costs.
+                        Build and manage datacenters across Victoria. Consider latency, power, and costs.
                     </p>
                 </div>
 

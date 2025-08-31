@@ -20,7 +20,7 @@ export function HeroSection() {
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <Link href={`${CONTENT.links.video}`}>
+                    <Link href={`${CONTENT.links.video}`} target="_blank">
                         <Button
                             size="lg"
                             className="text-lg px-8 py-6 bg-[#00843D] hover:bg-[#006b32] transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-[#00843D]/25"
@@ -29,7 +29,7 @@ export function HeroSection() {
                             {CONTENT.hero.primaryButton}
                         </Button>
                     </Link>
-                    <Link href={`${CONTENT.links.simulation}`}>
+                    <Link href={`${CONTENT.links.simulation}`} target="_blank">
                         <Button
                             variant="secondary"
                             size="lg"
