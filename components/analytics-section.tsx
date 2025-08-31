@@ -26,7 +26,6 @@ export function AnalyticsSection() {
                     </p>
                 </div>
 
-                {/* Row 1 */}
                 <div className="grid lg:grid-cols-2 gap-8 mb-8 items-stretch">
                     {/* Power Line Distribution */}
                     <Card className="h-[380px]">
@@ -155,12 +154,10 @@ export function AnalyticsSection() {
                     </Card>
                 </div>
 
-                {/* Row 2 */}
                 <div className="grid lg:grid-cols-2 gap-8 items-stretch">
                     {/* Fuel Types */}
                     <Card className="h-[680px]">
                         <CardHeader>
-                            {/* Updated heading */}
                             <CardTitle>Major Power Stations - Fuel Types</CardTitle>
                             <CardDescription>
                                 Count of power stations categorized by primary fuel source
@@ -181,7 +178,6 @@ export function AnalyticsSection() {
                                         <CartesianGrid strokeDasharray="3 3" />
                                         <XAxis type="number" allowDecimals={false} axisLine={false} tickLine={false}>
                                             <text />
-                                            {/* Axis label */}
                                             <text
                                                 x="50%"
                                                 y="100%"
@@ -200,7 +196,6 @@ export function AnalyticsSection() {
                                             tickLine={false}
                                             tick={{ fontSize: 12 }}
                                         >
-                                            {/* Axis label */}
                                             <text
                                                 angle={-90}
                                                 x={-50}
@@ -237,7 +232,7 @@ export function AnalyticsSection() {
                         </CardContent>
                     </Card>
 
-                    {/* Map */}
+                    {/* Major Power Stations by Australian States */}
                     <InteractiveAustraliaMap className="h-[680px]" />
                 </div>
             </div>

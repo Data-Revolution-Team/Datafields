@@ -38,9 +38,7 @@ export function InteractiveAustraliaMap({ className }: { className?: string }) {
                 <CardDescription>Interactive map showing power station distribution across Australia</CardDescription>
             </CardHeader>
 
-            {/* Stretchy inner layout so the SVG can grow */}
             <CardContent className="min-h-0 flex flex-col">
-                {/* Map region grows to fill height */}
                 <div className="relative flex-1 min-h-0">
                     <svg
                         viewBox="0 0 800 600"
@@ -108,7 +106,7 @@ export function InteractiveAustraliaMap({ className }: { className?: string }) {
                         <text x="400" y="395" textAnchor="middle" className="fill-slate-700 font-semibold text-sm pointer-events-none">NSW</text>
                         <text x="400" y="415" textAnchor="middle" className="fill-slate-600 text-xs pointer-events-none">116</text>
 
-                        {/* ACT — your rectangle, closed properly */}
+                        {/* ACT */}
                         <path
                             d="M450 350 L500 350 L500 500 L450 500 Z"
                             fill={getFillColor("ACT")}
@@ -159,7 +157,7 @@ export function InteractiveAustraliaMap({ className }: { className?: string }) {
                     )}
                 </div>
 
-                {/* Legend stays fixed height; doesn't force card taller */}
+                {/* Legend */}
                 <div className="mt-4 grid grid-cols-2 md:grid-cols-4 gap-2 text-sm shrink-0">
                     {stateData.map((state) => (
                         <div key={state.name} className="flex items-center gap-2">
