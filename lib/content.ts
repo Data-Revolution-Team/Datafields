@@ -1,4 +1,8 @@
 export const CONTENT = {
+    links: {
+        video: "https://youtube.com",
+        simulation: "/simulation"
+    },
     // Brand and general
     brand: {
         name: "Datafields",

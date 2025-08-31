@@ -20,14 +20,16 @@ export function HeroSection() {
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <Button
-                        size="lg"
-                        className="text-lg px-8 py-6 bg-[#00843D] hover:bg-[#006b32] transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-[#00843D]/25"
-                    >
-                        <Play className="mr-2 h-5 w-5" />
-                        {CONTENT.hero.primaryButton}
-                    </Button>
-                    <Link href="/simulation">
+                    <Link href={`${CONTENT.links.video}`}>
+                        <Button
+                            size="lg"
+                            className="text-lg px-8 py-6 bg-[#00843D] hover:bg-[#006b32] transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-[#00843D]/25"
+                        >
+                            <Play className="mr-2 h-5 w-5" />
+                            {CONTENT.hero.primaryButton}
+                        </Button>
+                    </Link>
+                    <Link href={`${CONTENT.links.simulation}`}>
                         <Button
                             variant="secondary"
                             size="lg"
