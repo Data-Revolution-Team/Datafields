@@ -9,9 +9,7 @@
     "start-prod": "next start",
     "lint": "next lint",
     "export": "next export",
-    "out": "next build && next export && touch ./out/.nojekyll && gh-pages -d out",
     "predeploy": "npm run out",
-    "deploy": "npm run predeploy && gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
