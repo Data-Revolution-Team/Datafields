@@ -1,6 +1,6 @@
 {
   "name": "datafields",
-  "homepage": "https://Data-Revolution-Team.github.io/Datafields",
+  "homepage": "https://data-revolution-team.github.io/datafields",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "start-prod": "next start",
     "lint": "next lint",
     "export": "next export",
-    "out": "next build && next export && touch ./out/.nojekyll",
+    "out": "next build && next export && touch ./out/.nojekyll && gh-pages -d out",
     "predeploy": "npm run out",
     "deploy": "npm run predeploy && gh-pages -d out --dotfiles"
   },
