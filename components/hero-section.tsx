@@ -8,7 +8,7 @@ export function HeroSection() {
     return (
         <section className="relative min-h-screen flex items-center justify-center bg-[#004d23] dark:bg-[#003318]">
             <div className="absolute inset-0 bg-gradient-to-br from-[#00843D]/20 to-[#006b32]/10"></div>
-            <div className={`absolute inset-0 bg-[url('${basePath}/abstract-data-visualization.png')] bg-cover bg-center opacity-5`}></div>
+            <div className="absolute inset-0 bg-[url('/Datafields/abstract-data-visualization.png')] bg-cover bg-center opacity-5"></div>
 
             <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-balance mb-6 text-white">
