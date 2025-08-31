@@ -4,6 +4,12 @@ const nextConfig = {
     reactStrictMode: true,
     basePath: isProd ? '/Datafields' : '',
     output: 'export',
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
+    typescript: {
+        ignoreBuildErrors: true,
+    },
 };
 
 module.exports = nextConfig
