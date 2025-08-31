@@ -1,6 +1,6 @@
 export const CONTENT = {
     links: {
-        video: "https://youtube.com",
+        video: "https://youtu.be/2jhVjUkDB-w",
         simulation: "/simulation"
     },
     // Brand and general
