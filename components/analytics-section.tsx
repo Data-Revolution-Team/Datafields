@@ -28,7 +28,7 @@ export function AnalyticsSection() {
 
                 <div className="grid lg:grid-cols-2 gap-8 mb-8 items-stretch">
                     {/* Power Line Distribution */}
-                    <Card className="h-[380px]">
+                    <Card className="h-[420px]">
                         <CardHeader>
                             <CardTitle>{CONTENT.analytics.charts.powerLines.title}</CardTitle>
                             <CardDescription>{CONTENT.analytics.charts.powerLines.description}</CardDescription>
@@ -80,7 +80,7 @@ export function AnalyticsSection() {
                     </Card>
 
                     {/* Renewable vs Non-Renewable Pie */}
-                    <Card className="h-[380px]">
+                    <Card className="h-[420px]">
                         <CardHeader>
                             <CardTitle>{CONTENT.analytics.charts.renewable.title}</CardTitle>
                             <CardDescription>{CONTENT.analytics.charts.renewable.description}</CardDescription>
