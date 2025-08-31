@@ -17,7 +17,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](link to website)
+[![Product Name Screen Shot][product-screenshot]](link to website)]
 
 Project submission for Govhack 2025. See further information here: https://hackerspace.govhack.org/projects/project_2536
 
