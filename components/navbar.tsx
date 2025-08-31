@@ -4,7 +4,6 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { CONTENT } from "@/lib/content"
-import { basePath } from '../next.config'
 
 export function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false)
@@ -27,7 +26,7 @@ export function Navbar() {
                     <div className="flex-shrink-0">
                         <Link href="/" className="select-none flex items-center space-x-1 hover:opacity-80 transition-opacity">
                             <Image
-                                src={`${basePath}/datafields-symbol.svg`}
+                                src={"/datafields-symbol.svg"}
                                 alt={CONTENT.brand.name}
                                 width={40}
                                 height={40}
