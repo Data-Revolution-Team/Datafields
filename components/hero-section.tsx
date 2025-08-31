@@ -12,7 +12,7 @@ export function HeroSection() {
             <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-balance mb-6 text-white">
                     {CONTENT.hero.heading.replace(CONTENT.hero.highlightWord, "")}
-                    <span className="text-[#00843D]">{CONTENT.hero.highlightWord}</span>
+                    <span className="text-[#FFCD00]">{CONTENT.hero.highlightWord}</span>
                 </h1>
 
                 <p className="text-xl sm:text-2xl text-slate-300 text-balance mb-8 max-w-3xl mx-auto">
