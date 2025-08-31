@@ -160,7 +160,7 @@ export function AnalyticsSection() {
                         <CardHeader>
                             <CardTitle>Major Power Stations - Fuel Types</CardTitle>
                             <CardDescription>
-                                Count of power stations categorized by primary fuel source
+                                Count of power stations categorised by primary fuel source
                             </CardDescription>
                         </CardHeader>
                         <CardContent className="min-h-0 flex flex-col mt-24">

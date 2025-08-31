@@ -15,10 +15,10 @@ export const CONTENT = {
 
     // Hero section
     hero: {
-        heading: "Optimize Data Centre Placement Across Australia",
+        heading: "Optimise Data Centre Placement Across Australia",
         highlightWord: "Australia",
         subheading:
-            "Analyze infrastructure, energy, and geographic data to select optimal locations and operational strategies for positioning Australia as the Asia-Pacific's AI and cloud computing leader.",
+            "Analyse infrastructure, energy, and geographic data to select optimal locations and operational strategies for positioning Australia as the Asia-Pacific's AI and cloud computing leader.",
         primaryButton: "Watch Video",
         secondaryButton: "Run Simulation",
     },
@@ -26,7 +26,7 @@ export const CONTENT = {
     // Features section
     features: {
         heading: "Advanced Analytics for Strategic Data Centre Placement",
-        description: "Everything you need to analyze Australia's infrastructure and select optimal data centre locations",
+        description: "Everything you need to analyse Australia's infrastructure and select optimal data centre locations",
         items: [
             {
                 title: "Infrastructure Analysis",
@@ -35,9 +35,9 @@ export const CONTENT = {
                 icon: "📊",
             },
             {
-                title: "Energy Optimization",
+                title: "Energy Optimisation",
                 description:
-                    "Evaluate renewable energy sources, grid stability, and power costs to minimize environmental impact and operational expenses.",
+                    "Evaluate renewable energy sources, grid stability, and power costs to minimise environmental impact and operational expenses.",
                 icon: "📈",
             },
             {
@@ -53,7 +53,7 @@ export const CONTENT = {
     analytics: {
         heading: "Australia's Power Infrastructure Analysis",
         description:
-            "Comprehensive data visualizations of Australia's power infrastructure to inform optimal data centre placement decisions",
+            "Comprehensive data visualisations of Australia's power infrastructure to inform optimal data centre placement decisions",
         charts: {
             powerLines: {
                 title: "Power Line Distribution by Type",
@@ -74,7 +74,7 @@ export const CONTENT = {
             },
             fuelTypes: {
                 title: "Major Power Stations by Fuel Type",
-                description: "Count of power stations categorized by primary fuel source",
+                description: "Count of power stations categorised by primary fuel source",
                 labels: {
                     fuel: "Fuel Type",
                     count: "Station Count",
