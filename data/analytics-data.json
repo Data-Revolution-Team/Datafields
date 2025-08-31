@@ -1,24 +1,40 @@
 {
-  "revenue": [
-    { "month": "Jan", "revenue": 45000, "growth": 12 },
-    { "month": "Feb", "revenue": 52000, "growth": 15 },
-    { "month": "Mar", "revenue": 48000, "growth": 8 },
-    { "month": "Apr", "revenue": 61000, "growth": 22 },
-    { "month": "May", "revenue": 55000, "growth": 18 },
-    { "month": "Jun", "revenue": 67000, "growth": 25 }
+  "powerLineDistribution": [
+    { "type": "Overhead", "count": 2783, "percentage": 92.98 },
+    { "type": "Underground", "count": 187, "percentage": 6.25 },
+    { "type": "Overhead/Underground", "count": 23, "percentage": 0.77 }
   ],
-  "userEngagement": [
-    { "category": "Mobile", "users": 4500, "sessions": 12000 },
-    { "category": "Desktop", "users": 3200, "sessions": 8500 },
-    { "category": "Tablet", "users": 1800, "sessions": 4200 },
-    { "category": "Other", "users": 900, "sessions": 2100 }
+  "renewableBreakdown": [
+    { "name": "Renewable", "value": 59.67, "count": 327 },
+    { "name": "Non-Renewable", "value": 40.33, "count": 221 }
   ],
-  "performance": [
-    { "time": "00:00", "cpu": 45, "memory": 62, "network": 23 },
-    { "time": "04:00", "cpu": 52, "memory": 58, "network": 31 },
-    { "time": "08:00", "cpu": 78, "memory": 71, "network": 45 },
-    { "time": "12:00", "cpu": 65, "memory": 69, "network": 38 },
-    { "time": "16:00", "cpu": 82, "memory": 75, "network": 52 },
-    { "time": "20:00", "cpu": 58, "memory": 64, "network": 29 }
+  "fuelTypes": [
+    { "fuel": "Natural Gas", "count": 132 },
+    { "fuel": "Wind", "count": 89 },
+    { "fuel": "Solar", "count": 81 },
+    { "fuel": "Water", "count": 76 },
+    { "fuel": "Biogas", "count": 50 },
+    { "fuel": "Distillate", "count": 50 },
+    { "fuel": "Coal", "count": 25 },
+    { "fuel": "Biomass", "count": 25 },
+    { "fuel": "Fuel Oil", "count": 15 },
+    { "fuel": "Blanks", "count": 6 },
+    { "fuel": "Diesel", "count": 4 },
+    { "fuel": "Coal Seam Methane", "count": 4 },
+    { "fuel": "Gas", "count": 2 },
+    { "fuel": "Compressed Natural Gas", "count": 1 },
+    { "fuel": "Fossil", "count": 1 },
+    { "fuel": "Fuel Oil", "count": 1 },
+    { "fuel": "Spark Ignition Reciprocating Engine", "count": 1 }
+  ],
+  "stateDistribution": [
+    { "state": "Western Australia", "count": 131 },
+    { "state": "New South Wales", "count": 116 },
+    { "state": "Queensland", "count": 91 },
+    { "state": "Victoria", "count": 89 },
+    { "state": "South Australia", "count": 49 },
+    { "state": "Tasmania", "count": 39 },
+    { "state": "Northern Territory", "count": 29 },
+    { "state": "ACT", "count": 4 }
   ]
 }

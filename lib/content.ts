@@ -51,33 +51,41 @@ export const CONTENT = {
 
   // Analytics section
   analytics: {
-    heading: "Data-Driven Location Intelligence",
+    heading: "Australia's Power Infrastructure Analysis",
     description:
-      "Interactive visualizations showing infrastructure, energy, and geographic analysis for optimal data centre placement",
+      "Comprehensive data visualizations of Australia's power infrastructure to inform optimal data centre placement decisions",
     charts: {
-      revenue: {
-        title: "Infrastructure Scores",
-        description: "Regional infrastructure quality and connectivity ratings",
+      powerLines: {
+        title: "Power Line Distribution by Type",
+        description: "Breakdown of Australia's 2,993 power lines by infrastructure type",
         labels: {
-          revenue: "Infrastructure Score",
-          growth: "Connectivity Index",
+          overhead: "Overhead",
+          underground: "Underground",
+          mixed: "Overhead/Underground",
         },
       },
-      engagement: {
-        title: "Energy Analysis",
-        description: "Renewable energy availability and grid stability by region",
+      renewable: {
+        title: "Renewable vs Non-Renewable Power Stations",
+        description: "Distribution of major power stations by energy source type",
         labels: {
-          users: "Renewable %",
-          sessions: "Grid Stability",
+          renewable: "Renewable",
+          nonRenewable: "Non-Renewable",
         },
       },
-      performance: {
-        title: "Risk Assessment",
-        description: "Climate, disaster, and operational risk factors across potential locations",
+      fuelTypes: {
+        title: "Major Power Stations by Fuel Type",
+        description: "Count of power stations categorized by primary fuel source",
         labels: {
-          cpu: "Climate Risk",
-          memory: "Disaster Risk",
-          network: "Operational Risk",
+          fuel: "Fuel Type",
+          count: "Station Count",
+        },
+      },
+      states: {
+        title: "Power Stations by Australian States",
+        description: "Geographic distribution of major power stations across Australia",
+        labels: {
+          state: "State/Territory",
+          count: "Power Stations",
         },
       },
     },
