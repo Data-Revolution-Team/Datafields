@@ -27,7 +27,7 @@ export function Navbar() {
                     <div className="flex-shrink-0">
                         <Link href="/" className="select-none flex items-center space-x-1 hover:opacity-80 transition-opacity">
                             <Image
-                                src={`${basePath}/datafields-symbol.svg"`}
+                                src={`${basePath}/datafields-symbol.svg`}
                                 alt={CONTENT.brand.name}
                                 width={40}
                                 height={40}
