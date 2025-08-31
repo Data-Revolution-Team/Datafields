@@ -104,8 +104,8 @@ export function AnalyticsSection() {
                                             label={({ value, cx, cy, midAngle, outerRadius }) => {
                                                 const RADIAN = Math.PI / 180
                                                 const r = outerRadius * 0.65
-                                                const x = cx + r * Math.cos(-midAngle * RADIAN)
-                                                const y = cy + r * Math.sin(-midAngle * RADIAN)
+                                                const x = cx + r * Math.cos(midAngle ? -midAngle : 1 * RADIAN)
+                                                const y = cy + r * Math.sin(midAngle ? -midAngle : 1 * RADIAN)
                                                 return (
                                                     <text
                                                         x={x}
