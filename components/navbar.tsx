@@ -33,7 +33,7 @@ export function Navbar() {
                                 className="h-16 w-16 cursor-pointer"
                                 priority
                             />
-                            <span className="text-xl font-semibold text-[#FFCD00] cursor-pointer">Datafields</span>
+                            <span className={`text-xl font-semibold ${isScrolled ? "text-[#00843D]" : "text-[#FFCD00]"} cursor-pointer`}>Datafields</span>
                         </Link>
                     </div>
 
